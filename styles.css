@@ -48,8 +48,7 @@ nav button{
 }
 
 /* hero style here */
-.banner{
-    /* background-image: url(imges/Hero-bg.png); */
+.banner{   
     text-align: center;
     margin: 309px 267.5px 152px;
 }
@@ -62,4 +61,36 @@ nav button{
 }
 .banner button{
     width: 178px 48px;
+}
+
+/* action strat here */
+
+.action{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 1140px;
+    height: 380px;
+    margin: 115px 160px 115px 140px;
+
+}
+.action-left{
+    padding: 62px 0px;
+}
+
+.action-left h2{
+    font-size: 42px;
+    font-weight: bold;
+}
+.action-left p{
+    font-size: 24px;
+    font-weight: 200;
+    margin: 23px 0px;
+    color: #1E1E1E;
+    
+
+}
+.action img {
+    border-radius: 45px;
 }
