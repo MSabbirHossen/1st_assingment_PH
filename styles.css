@@ -1,8 +1,8 @@
 * {
   box-sizing: border-box;
   max-width: 1440px;
-  align-items: center;
-}
+  /* align-items: center; */
+ 
 /* Shared CSS */
 .btn {
   background-color: #4e47ff;
@@ -46,6 +46,7 @@ nav button {
 .banner {
   text-align: center;
   margin: 309px 267.5px 152px;
+  /* padding: 0 0 152px 0; */
 }
 
 .banner h1 {
@@ -71,7 +72,7 @@ nav button {
 }
 .action-left {
   padding: 62px 0px;
-}
+  }
 
 .action-left h2 {
   font-size: 42px;
@@ -88,10 +89,34 @@ nav button {
 }
 
 .users-container {
+  width: 1140px;
+  height: 306px;
+  align-self: center;
   text-align: center;
+  background-color: rgba(77, 71, 255, 0.303);
+  padding-top: 50px;
+  border-radius: 24px;
 }
 .user-summary {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  padding-bottom: 50px;
+}
+div p{
+    font-size: 35px;
+    font-weight: bold;
+}
+section h1 {
+  font-size: 60px;
+  font-weight: 700;
+  color: #4e47ff;
+  margin: 40px 0px 0px;
+}
+
+section p {
+  font-size: 20px;
+  font-weight: 400;
+  margin: 0px;
+  text-align: center;
 }
