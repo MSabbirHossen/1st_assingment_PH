@@ -21,10 +21,10 @@
     align-content: center;
     margin: 0px 160px 0 px 140px;
 }
-/* heder style stars here... */
+/* heder style starts here... */
 
 header {
-  background-image: url(imges/Hero-bg.png);
+  background-image: url(images/Hero-bg.png);
   height: 700px;
   align-items: center;
 }
@@ -63,7 +63,7 @@ nav button {
   width: 178px 48px;
 }
 
-/* action strat here */
+/* action start here */
 
 .action {
     width: 1140px;
@@ -95,7 +95,6 @@ nav button {
   text-align: center;
   background-color: rgba(77, 71, 255, 0.303);
   padding: 50px 140px;
-  /* padding-top: 50px; */
   border-radius: 24px;
 }
 .user-summary {
@@ -113,8 +112,41 @@ section h1 {
 }
 
 section p {
-  font-size: 20px;
+    font-size: 20px;
   font-weight: 400;
   margin: 0px;
   text-align: center;
+}
+
+/* contact section starts here */
+
+.contact{
+  gap: 200px;
+  width: 1140px;
+  height: 630px;
+  margin: 90px 150px 15px;
+}
+.contact-heading{
+   font-size: 97px;
+  font-weight: bold;
+ 
+}
+form{
+  display: flex;
+  flex-direction: column;
+  margin: 70px 0px;
+}
+form label {
+  font-size: 18px;
+  font-weight: 300;
+  color: #000;
+}
+input, textarea{
+  border-radius: 10px;
+  width: 450px;
+  height: 70px;
+  padding: 5px 15px;
+}
+form button {
+  margin-top: 10px;
 }
